@@ -1,0 +1,124 @@
+{
+  "countries": [
+    {
+      "name": "South Korea",
+      "universities": [
+        {
+          "name": "Seoul National University",
+          "logo": "/data/HanQuoc/Seoul National University.png"
+        },
+        {
+          "name": "KAIST (Korea Advanced Institute of Science and Technology)",
+          "logo": "/data/HanQuoc/KAIST (Korea Advanced Institute of Science and Technology).png"
+        },
+        {
+          "name": "Yonsei University",
+          "logo": "/data/HanQuoc/Yonsei University.svg"
+        },
+        {
+          "name": "Korea University",
+          "logo": "/data/HanQuoc/Korea University.png"
+        },
+        {
+          "name": "Sungkyunkwan University (SKKU)",
+          "logo": "/data/HanQuoc/Sungkyunkwan University (SKKU).jpg"
+        },
+        {
+          "name": "POSTECH (Pohang University of Science and Technology)",
+          "logo": "/data/HanQuoc/POSTECH (Pohang University of Science and Technology).svg"
+        },
+        {
+          "name": "Hanyang University",
+          "logo": "/data/HanQuoc/Hanyang University.png"
+        },
+        {
+          "name": "Ewha Womans University",
+          "logo": "/data/HanQuoc/Ewha Womans University.png"
+        },
+        {
+          "name": "Sogang University",
+          "logo": "/data/HanQuoc/Sogang University.png"
+        },
+        {
+          "name": "UNIST (Ulsan National Institute of Science and Technology)",
+          "logo": "/data/HanQuoc/UNIST (Ulsan National Institute of Science and Technology).jpg"
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "universities": [
+        {
+          "name": "IIT Delhi (Indian Institute of Technology Delhi)",
+          "logo": "/data/AnDo/IIT Delhi (Indian Institute of Technology Delhi).png"
+        },
+        {
+          "name": "IIT Kanpur (Indian Institute of Technology Kanpur)",
+          "logo": "/data/AnDo/IIT Kanpur (Indian Institute of Technology Kanpur).webp"
+        },
+        {
+          "name": "IIT Kharagpur (Indian Institute of Technology Kharagpur)",
+          "logo": "/data/AnDo/IIT Kharagpur (Indian Institute of Technology Kharagpur).png"
+        },
+        {
+          "name": "IIT Madras (Indian Institute of Technology Madras)",
+          "logo": "/data/AnDo/IIT Madras (Indian Institute of Technology Madras).png"
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "universities": [
+        {
+          "name": "The University of Tokyo",
+          "logo": "/data/NhatBan/The University of Tokyo.png"
+        },
+        {
+          "name": "Kyoto University",
+          "logo": "/data/NhatBan/Kyoto University.svg"
+        },
+        {
+          "name": "Osaka University",
+          "logo": "/data/NhatBan/Osaka University.png"
+        },
+        {
+          "name": "Tohoku University",
+          "logo": "/data/NhatBan/Tohoku University.png"
+        },
+        {
+          "name": "Tokyo Institute of Technology (now Institute of Science Tokyo)",
+          "logo": "/data/NhatBan/Tokyo Institute of Technology (now Institute of Science Tokyo).svg"
+        },
+        {
+          "name": "Nagoya University",
+          "logo": "/data/NhatBan/Nagoya University.png"
+        },
+        {
+          "name": "Hokkaido University",
+          "logo": "/data/NhatBan/Hokkaido University.png"
+        },
+        {
+          "name": "Kyushu University",
+          "logo": "/data/NhatBan/Kyushu University.svg"
+        },
+        {
+          "name": "Waseda University",
+          "logo": "/data/NhatBan/Waseda University.png"
+        },
+        {
+          "name": "Keio University",
+          "logo": "/data/NhatBan/Keio University.png"
+        }
+      ]
+    },
+    {
+      "name": "United States",
+      "universities": [
+        {
+          "name": "Yale University",
+          "logo": "/data/My/My_YaleUniversity.svg"
+        }
+      ]
+    }
+  ]
+}

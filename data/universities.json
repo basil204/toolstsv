@@ -1,0 +1,362 @@
+[
+  {
+    "country": "Han Quoc",
+    "english_name": "Seoul National University",
+    "local_name": "서울대학교",
+    "folder": "HanQuoc",
+    "file_svg": "HanQuoc_SeoulNationalUniversity.svg",
+    "file_png": "HanQuoc_SeoulNationalUniversity.png",
+    "search_query": "Seoul National University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Han Quoc",
+    "english_name": "KAIST (Korea Advanced Institute of Science and Technology)",
+    "local_name": "한국과학기술원",
+    "folder": "HanQuoc",
+    "file_svg": "HanQuoc_KAIST.svg",
+    "file_png": "HanQuoc_KAIST.png",
+    "search_query": "KAIST (Korea Advanced Institute of Science and Technology) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Han Quoc",
+    "english_name": "POSTECH (Pohang University of Science and Technology)",
+    "local_name": "포항공과대학교",
+    "folder": "HanQuoc",
+    "file_svg": "HanQuoc_POSTECH.svg",
+    "file_png": "HanQuoc_POSTECH.png",
+    "search_query": "POSTECH (Pohang University of Science and Technology) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Han Quoc",
+    "english_name": "Yonsei University",
+    "local_name": "연세대학교",
+    "folder": "HanQuoc",
+    "file_svg": "HanQuoc_YonseiUniversity.svg",
+    "file_png": "HanQuoc_YonseiUniversity.png",
+    "search_query": "Yonsei University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Han Quoc",
+    "english_name": "Korea University",
+    "local_name": "고려대학교",
+    "folder": "HanQuoc",
+    "file_svg": "HanQuoc_KoreaUniversity.svg",
+    "file_png": "HanQuoc_KoreaUniversity.png",
+    "search_query": "Korea University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Han Quoc",
+    "english_name": "Hanyang University",
+    "local_name": "한양대학교",
+    "folder": "HanQuoc",
+    "file_svg": "HanQuoc_HanyangUniversity.svg",
+    "file_png": "HanQuoc_HanyangUniversity.png",
+    "search_query": "Hanyang University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Han Quoc",
+    "english_name": "Sungkyunkwan University (SKKU)",
+    "local_name": "성균관대학교",
+    "folder": "HanQuoc",
+    "file_svg": "HanQuoc_SungkyunkwanUniversity.svg",
+    "file_png": "HanQuoc_SungkyunkwanUniversity.png",
+    "search_query": "Sungkyunkwan University (SKKU) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Han Quoc",
+    "english_name": "Ewha Womans University",
+    "local_name": "이화여자대학교",
+    "folder": "HanQuoc",
+    "file_svg": "HanQuoc_EwhaWomansUniversity.svg",
+    "file_png": "HanQuoc_EwhaWomansUniversity.png",
+    "search_query": "Ewha Womans University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Han Quoc",
+    "english_name": "Sogang University",
+    "local_name": "서강대학교",
+    "folder": "HanQuoc",
+    "file_svg": "HanQuoc_SogangUniversity.svg",
+    "file_png": "HanQuoc_SogangUniversity.png",
+    "search_query": "Sogang University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Han Quoc",
+    "english_name": "UNIST (Ulsan National Institute of Science and Technology)",
+    "local_name": "울산과학기술원",
+    "folder": "HanQuoc",
+    "file_svg": "HanQuoc_UNIST.svg",
+    "file_png": "HanQuoc_UNIST.png",
+    "search_query": "UNIST (Ulsan National Institute of Science and Technology) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Nhat Ban",
+    "english_name": "The University of Tokyo",
+    "local_name": "東京大学",
+    "folder": "NhatBan",
+    "file_svg": "NhatBan_UniversityOfTokyo.svg",
+    "file_png": "NhatBan_UniversityOfTokyo.png",
+    "search_query": "The University of Tokyo logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Nhat Ban",
+    "english_name": "Kyoto University",
+    "local_name": "京都大学",
+    "folder": "NhatBan",
+    "file_svg": "NhatBan_KyotoUniversity.svg",
+    "file_png": "NhatBan_KyotoUniversity.png",
+    "search_query": "Kyoto University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Nhat Ban",
+    "english_name": "Osaka University",
+    "local_name": "大阪大学",
+    "folder": "NhatBan",
+    "file_svg": "NhatBan_OsakaUniversity.svg",
+    "file_png": "NhatBan_OsakaUniversity.png",
+    "search_query": "Osaka University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Nhat Ban",
+    "english_name": "Tohoku University",
+    "local_name": "東北大学",
+    "folder": "NhatBan",
+    "file_svg": "NhatBan_TohokuUniversity.svg",
+    "file_png": "NhatBan_TohokuUniversity.png",
+    "search_query": "Tohoku University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Nhat Ban",
+    "english_name": "Nagoya University",
+    "local_name": "名古屋大学",
+    "folder": "NhatBan",
+    "file_svg": "NhatBan_NagoyaUniversity.svg",
+    "file_png": "NhatBan_NagoyaUniversity.png",
+    "search_query": "Nagoya University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Nhat Ban",
+    "english_name": "Hokkaido University",
+    "local_name": "北海道大学",
+    "folder": "NhatBan",
+    "file_svg": "NhatBan_HokkaidoUniversity.svg",
+    "file_png": "NhatBan_HokkaidoUniversity.png",
+    "search_query": "Hokkaido University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Nhat Ban",
+    "english_name": "Tokyo Institute of Technology (now Institute of Science Tokyo)",
+    "local_name": "東京工業大学",
+    "folder": "NhatBan",
+    "file_svg": "NhatBan_TokyoInstituteOfTechnology.svg",
+    "file_png": "NhatBan_TokyoInstituteOfTechnology.png",
+    "search_query": "Tokyo Institute of Technology (now Institute of Science Tokyo) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Nhat Ban",
+    "english_name": "Waseda University",
+    "local_name": "早稲田大学",
+    "folder": "NhatBan",
+    "file_svg": "NhatBan_WasedaUniversity.svg",
+    "file_png": "NhatBan_WasedaUniversity.png",
+    "search_query": "Waseda University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Nhat Ban",
+    "english_name": "Keio University",
+    "local_name": "慶應義塾大学",
+    "folder": "NhatBan",
+    "file_svg": "NhatBan_KeioUniversity.svg",
+    "file_png": "NhatBan_KeioUniversity.png",
+    "search_query": "Keio University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "Nhat Ban",
+    "english_name": "Kyushu University",
+    "local_name": "九州大学",
+    "folder": "NhatBan",
+    "file_svg": "NhatBan_KyushuUniversity.svg",
+    "file_png": "NhatBan_KyushuUniversity.png",
+    "search_query": "Kyushu University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "An Do",
+    "english_name": "IIT Bombay (Indian Institute of Technology Bombay)",
+    "local_name": "भारतीय प्रौद्योगिकी संस्थान मुंबई",
+    "folder": "AnDo",
+    "file_svg": "AnDo_IITBombay.svg",
+    "file_png": "AnDo_IITBombay.png",
+    "search_query": "IIT Bombay (Indian Institute of Technology Bombay) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "An Do",
+    "english_name": "IIT Delhi (Indian Institute of Technology Delhi)",
+    "local_name": "भारतीय प्रौद्योगिकी संस्थान दिल्ली",
+    "folder": "AnDo",
+    "file_svg": "AnDo_IITDelhi.svg",
+    "file_png": "AnDo_IITDelhi.png",
+    "search_query": "IIT Delhi (Indian Institute of Technology Delhi) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "An Do",
+    "english_name": "IIT Madras (Indian Institute of Technology Madras)",
+    "local_name": "भारतीय प्रौद्योगिकी संस्थान मद्रास",
+    "folder": "AnDo",
+    "file_svg": "AnDo_IITMadras.svg",
+    "file_png": "AnDo_IITMadras.png",
+    "search_query": "IIT Madras (Indian Institute of Technology Madras) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "An Do",
+    "english_name": "IIT Kanpur (Indian Institute of Technology Kanpur)",
+    "local_name": "भारतीय प्रौद्योगिकी संस्थान कानपुर",
+    "folder": "AnDo",
+    "file_svg": "AnDo_IITKanpur.svg",
+    "file_png": "AnDo_IITKanpur.png",
+    "search_query": "IIT Kanpur (Indian Institute of Technology Kanpur) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "An Do",
+    "english_name": "IIT Kharagpur (Indian Institute of Technology Kharagpur)",
+    "local_name": "भारतीय प्रौद्योगिकी संस्थान खड़गपुर",
+    "folder": "AnDo",
+    "file_svg": "AnDo_IITKharagpur.svg",
+    "file_png": "AnDo_IITKharagpur.png",
+    "search_query": "IIT Kharagpur (Indian Institute of Technology Kharagpur) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "An Do",
+    "english_name": "IIT Roorkee (Indian Institute of Technology Roorkee)",
+    "local_name": "भारतीय प्रौद्योगिकी संस्थान रुड़की",
+    "folder": "AnDo",
+    "file_svg": "AnDo_IITRoorkee.svg",
+    "file_png": "AnDo_IITRoorkee.png",
+    "search_query": "IIT Roorkee (Indian Institute of Technology Roorkee) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "An Do",
+    "english_name": "IIT Guwahati (Indian Institute of Technology Guwahati)",
+    "local_name": "भारतीय प्रौद्योगिकी संस्थान गुवाहाटी",
+    "folder": "AnDo",
+    "file_svg": "AnDo_IITGuwahati.svg",
+    "file_png": "AnDo_IITGuwahati.png",
+    "search_query": "IIT Guwahati (Indian Institute of Technology Guwahati) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "An Do",
+    "english_name": "IISc Bengaluru (Indian Institute of Science)",
+    "local_name": "भारतीय विज्ञान संस्थान",
+    "folder": "AnDo",
+    "file_svg": "AnDo_IIScBengaluru.svg",
+    "file_png": "AnDo_IIScBengaluru.png",
+    "search_query": "IISc Bengaluru (Indian Institute of Science) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "An Do",
+    "english_name": "University of Delhi",
+    "local_name": "दिल्ली विश्वविद्यालय",
+    "folder": "AnDo",
+    "file_svg": "AnDo_UniversityOfDelhi.svg",
+    "file_png": "AnDo_UniversityOfDelhi.png",
+    "search_query": "University of Delhi logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "An Do",
+    "english_name": "Jawaharlal Nehru University (JNU)",
+    "local_name": "जवाहरलाल नेहरू विश्वविद्यालय",
+    "folder": "AnDo",
+    "file_svg": "AnDo_JawaharlalNehruUniversity.svg",
+    "file_png": "AnDo_JawaharlalNehruUniversity.png",
+    "search_query": "Jawaharlal Nehru University (JNU) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "My",
+    "english_name": "Harvard University",
+    "local_name": "Harvard University",
+    "folder": "My",
+    "file_svg": "My_HarvardUniversity.svg",
+    "file_png": "My_HarvardUniversity.png",
+    "search_query": "Harvard University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "My",
+    "english_name": "Massachusetts Institute of Technology (MIT)",
+    "local_name": "Massachusetts Institute of Technology",
+    "folder": "My",
+    "file_svg": "My_MIT.svg",
+    "file_png": "My_MIT.png",
+    "search_query": "Massachusetts Institute of Technology (MIT) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "My",
+    "english_name": "Stanford University",
+    "local_name": "Stanford University",
+    "folder": "My",
+    "file_svg": "My_StanfordUniversity.svg",
+    "file_png": "My_StanfordUniversity.png",
+    "search_query": "Stanford University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "My",
+    "english_name": "University of California, Berkeley (UC Berkeley)",
+    "local_name": "University of California, Berkeley",
+    "folder": "My",
+    "file_svg": "My_UCBerkeley.svg",
+    "file_png": "My_UCBerkeley.png",
+    "search_query": "University of California, Berkeley (UC Berkeley) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "My",
+    "english_name": "California Institute of Technology (Caltech)",
+    "local_name": "California Institute of Technology",
+    "folder": "My",
+    "file_svg": "My_Caltech.svg",
+    "file_png": "My_Caltech.png",
+    "search_query": "California Institute of Technology (Caltech) logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "My",
+    "english_name": "Princeton University",
+    "local_name": "Princeton University",
+    "folder": "My",
+    "file_svg": "My_PrincetonUniversity.svg",
+    "file_png": "My_PrincetonUniversity.png",
+    "search_query": "Princeton University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "My",
+    "english_name": "Yale University",
+    "local_name": "Yale University",
+    "folder": "My",
+    "file_svg": "My_YaleUniversity.svg",
+    "file_png": "My_YaleUniversity.png",
+    "search_query": "Yale University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "My",
+    "english_name": "Columbia University",
+    "local_name": "Columbia University",
+    "folder": "My",
+    "file_svg": "My_ColumbiaUniversity.svg",
+    "file_png": "My_ColumbiaUniversity.png",
+    "search_query": "Columbia University logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "My",
+    "english_name": "University of Chicago",
+    "local_name": "University of Chicago",
+    "folder": "My",
+    "file_svg": "My_UniversityOfChicago.svg",
+    "file_png": "My_UniversityOfChicago.png",
+    "search_query": "University of Chicago logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  },
+  {
+    "country": "My",
+    "english_name": "University of Michigan",
+    "local_name": "University of Michigan",
+    "folder": "My",
+    "file_svg": "My_UniversityOfMichigan.svg",
+    "file_png": "My_UniversityOfMichigan.png",
+    "search_query": "University of Michigan logo filetype:svg site:commons.wikimedia.org OR site:wikipedia.org"
+  }
+]
