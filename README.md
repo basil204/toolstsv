@@ -1,58 +1,231 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎓 Student Card Generator - PHP Version
 
-# Run and deploy your AI Studio app
+A powerful PHP application for generating beautiful student ID cards with AI-generated faces and university logos.
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/15UWnKiS45pF9h_LBe43iFUbMZxln8Lrz
+- **🎭 AI-Generated Faces**: 334+ unique AI-generated face images
+- **🏫 Multiple Universities**: Support for universities from South Korea, Japan, United States, and India
+- **🎨 Two Card Designs**: Standard and Special gradient card designs
+- **🌍 Multi-Country Support**: Different languages and formatting for each country
+- **📱 Responsive Design**: Works perfectly on desktop, tablet, and mobile
+- **💾 Download Options**: Export cards as PNG or PDF
+- **⚡ Fast Performance**: Optimized PHP code with local image loading
 
-## Run Locally
+## 🚀 Quick Start
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
-1. Install dependencies:
+- PHP 7.4 or higher
+- Web server (Apache/Nginx) or PHP built-in server
+- GD extension (for image processing)
+
+### Installation
+
+1. **Clone or download the project**
    ```bash
-   npm install
+   git clone <repository-url>
+   cd student-card-generator
    ```
 
-2. Run the app:
+2. **Set up the web server**
+   
+   **Option A: Using PHP built-in server (for development)**
    ```bash
-   npm run dev
+   php -S localhost:8000
+   ```
+   
+   **Option B: Using Apache/Nginx**
+   - Copy files to your web server directory
+   - Ensure PHP is enabled
+
+3. **Access the application**
+   Open your browser and navigate to:
+   ```
+   http://localhost:8000
    ```
 
-## Features
+## 📁 Project Structure
 
-- **No API Required**: Generates realistic student data locally
-- **Multiple Countries**: Support for Korea, Japan, US, and India
-- **Real Universities**: Uses real university data with authentic logos
-- **Realistic Data**: Culturally appropriate names, courses, and departments
-- **High Variety**: 15+ names, courses, and departments per country
-- **AI-Generated Images**: Uses 20,000+ AI-generated face images with smart detection system
-- **Real University Logos**: 20 universities per country with authentic logos
-- **Country-Specific Designs**: Unique card backgrounds and patterns for each country
-- **Completely Offline**: Works without internet connection
+```
+student-card-generator/
+├── index.php              # Main application file
+├── config.php             # Configuration and university data
+├── data.php               # Data processing functions
+├── card-generator.php     # Card generation functions
+├── download.php           # Download handling
+├── style.css              # Custom CSS styles
+├── script.js              # JavaScript functionality
+├── copy-images.php        # Image migration script
+├── images/                # Image assets
+│   ├── ai-faces/          # AI-generated face images (334 images)
+│   └── university-logos/  # University logo images
+├── data/                  # Data files
+│   ├── image-urls.json    # Image URL mappings
+│   └── university_logos_20.json
+└── README.md              # This file
+```
 
-## How It Works
+## 🎯 Usage
 
-The app uses local data generation with:
-- **Real University Data**: 20 authentic universities per country from `university_logos_20.json`
-- **Authentic Logos**: Real university logos from Wikipedia/Wikimedia
-- **Culturally Appropriate Names**: 15+ names per country with proper formatting
-- **Realistic Courses**: Authentic course and department names
-- **Random Email Usernames**: Realistic username patterns with authentic university domains
-- **Authentic Student IDs**: University-prefixed student ID formats
-- **AI-Generated Avatar Images**: Smart random selection from 20,000+ AI-generated face images with automatic detection
-- **Country-Specific Styling**: Distinctive visual themes for each country
-- **Random Email Generation**: 10 different username patterns with real university domains
+### Basic Usage
 
-## Adding More Images
+1. **Select Country**: Choose from South Korea, Japan, United States, or India
+2. **Choose Design**: Toggle between Standard and Special card designs
+3. **Generate Card**: Click "Generate" to create a new random student card
+4. **Download**: Use "Download PNG" or "Download PDF" to save the card
 
-To add more avatar images:
-1. Place image files in the `data_img/` folder
-2. Update the `localImages` array in `App.tsx` to include new filenames
-3. Supported formats: JPG, PNG, GIF
-4. Advanced AI image system with 20,000+ generated face images for maximum variety
-5. Smart detection system automatically finds and uses all available AI-generated images
-6. Intelligent caching system for optimal performance with large image collections
+### Card Features
+
+- **Random Student Data**: Name, ID, course, department, email
+- **AI Face Images**: Randomly selected from 334+ unique faces
+- **University Logos**: Automatically matched to selected country
+- **Localized Labels**: Country-specific field labels and formatting
+
+## 🛠️ Configuration
+
+### Adding New Universities
+
+Edit `config.php` to add new universities:
+
+```php
+$UNIVERSITY_DATA['Your Country'] = [
+    [
+        'name' => 'University Name',
+        'logo' => 'images/university-logos/university-logo.png',
+        'subtitle' => 'STUDENT ID CARD'
+    ],
+    // Add more universities...
+];
+```
+
+### Adding New Countries
+
+1. Add country to `$UNIVERSITY_DATA` in `config.php`
+2. Add labels to `$COUNTRY_LABELS` in `config.php`
+3. Add university logos to `images/university-logos/`
+
+### Customizing Card Designs
+
+Edit `card-generator.php` to modify:
+- Card layouts and styling
+- Information display format
+- Color schemes and gradients
+
+## 🎨 Customization
+
+### Styling
+
+- **CSS**: Edit `style.css` for custom styling
+- **Colors**: Modify gradient backgrounds and accent colors
+- **Layout**: Adjust card dimensions and spacing
+
+### Data Generation
+
+- **Names**: Edit name arrays in `data.php`
+- **Courses**: Modify `$COURSES` array in `config.php`
+- **Departments**: Update `$DEPARTMENTS` array in `config.php`
+
+### Image Management
+
+- **AI Faces**: Add images to `images/ai-faces/` directory
+- **University Logos**: Add logos to `images/university-logos/` directory
+- **Naming**: Follow the naming convention for automatic mapping
+
+## 📊 Technical Details
+
+### File Formats Supported
+
+- **Images**: JPG, JPEG, PNG, GIF, WebP, SVG
+- **Download**: PNG, PDF (with wkhtmltopdf)
+
+### Performance
+
+- **Image Loading**: Local file system for fast loading
+- **Caching**: Browser caching for improved performance
+- **Optimization**: Compressed images and minified assets
+
+### Browser Compatibility
+
+- Chrome 60+
+- Firefox 55+
+- Safari 12+
+- Edge 79+
+
+## 🔧 Troubleshooting
+
+### Common Issues
+
+1. **Images not loading**
+   - Check file permissions on `images/` directory
+   - Ensure images exist in correct directories
+   - Verify file naming conventions
+
+2. **Download not working**
+   - Install wkhtmltopdf for PDF generation
+   - Check server write permissions
+   - Verify JavaScript is enabled
+
+3. **PHP errors**
+   - Ensure PHP 7.4+ is installed
+   - Check GD extension is enabled
+   - Verify file permissions
+
+### Debug Mode
+
+Enable debug mode by adding to `config.php`:
+```php
+define('DEBUG', true);
+```
+
+## 🚀 Deployment
+
+### Production Setup
+
+1. **Web Server Configuration**
+   ```apache
+   # Apache .htaccess
+   RewriteEngine On
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule ^(.*)$ index.php [QSA,L]
+   ```
+
+2. **Security**
+   - Set proper file permissions
+   - Enable HTTPS
+   - Configure firewall rules
+
+3. **Performance**
+   - Enable PHP OPcache
+   - Use CDN for static assets
+   - Implement caching strategies
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📞 Support
+
+For support and questions:
+- Create an issue on GitHub
+- Check the troubleshooting section
+- Review the documentation
+
+## 🎉 Acknowledgments
+
+- AI-generated face images from various sources
+- University logos from official sources
+- Tailwind CSS for styling framework
+- Font Awesome for icons
+
+---
+
+**Made with ❤️ for students and educators worldwide**

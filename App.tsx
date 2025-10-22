@@ -26,6 +26,7 @@ const App: React.FC = () => {
   const [isLocalMode, setIsLocalMode] = useState(true);
   const [imageLoading, setImageLoading] = useState(false);
   const [useSpecialCard, setUseSpecialCard] = useState(false);
+  const [universityLogos, setUniversityLogos] = useState<{[key: string]: string}>({});
   const cardRef = useRef<HTMLDivElement>(null);
 
   const randomDigits = (length: number): string => {
@@ -157,6 +158,9 @@ const App: React.FC = () => {
   const generateLocalData = useCallback((country: Country) => {
     const university = getRandomUniversity(country);
     
+    // Use ImgBB URL for university logo if available, otherwise use default
+    const logoUrl = universityLogos[university.name] || university.logo;
+    
     // Expanded name databases for more variety
     const nameData = {
       KOREA: {
@@ -256,156 +260,118 @@ const App: React.FC = () => {
       validity: `${startYear} - ${endYear}`,
       course: randomCourse,
       department: randomDept,
-      university,
+      university: {
+        ...university,
+        logo: logoUrl
+      },
       studentId,
       expiryDate,
       email,
       country: country,
       labels: LABELS[country]
     };
-  }, []);
+  }, [universityLogos]);
 
   // Advanced AI-generated image system with smart detection and caching
   const [availableImages, setAvailableImages] = useState<string[]>([]);
   const [imageCache, setImageCache] = useState<Set<string>>(new Set());
 
-  const getAllAvailableImages = useCallback(() => {
-    // Smart image detection system that works with both old and new naming schemes
-    const images = [];
-    
-    // First, try to detect if images have been renamed to sequential format
-    const hasRenamedImages = () => {
-      // Check if we have ai-face-001.jpg, ai-face-002.jpg, etc.
-      // Since we know we have 334 images, we can assume they exist
-      return true; // We know we have renamed images from 1-334
-    };
-
-    if (hasRenamedImages()) {
-      // Use sequential naming system (ai-face-001.jpg, ai-face-002.jpg, etc.)
-      console.log('🎯 Using sequential naming system (ai-face-001, ai-face-002, etc.)');
+  const getAllAvailableImages = useCallback(async () => {
+    try {
+      // Load image URLs from JSON file
+      const response = await fetch('/data/image-urls.json');
+      if (!response.ok) {
+        throw new Error('Failed to load image URLs');
+      }
       
-      // Generate sequential image paths - only for actual existing images (1-334)
+      const imageData = await response.json();
+      console.log('🌐 Loaded image URLs from ImgBB:', imageData.length, 'images');
+      
+      // Extract AI face images (ai-face-001 to ai-face-334)
+      const aiFaceImages = imageData
+        .filter((item: any) => item.fileName.startsWith('ai-face-'))
+        .map((item: any) => item.url);
+      
+      console.log('🎭 AI Face images loaded:', aiFaceImages.length);
+      return aiFaceImages;
+      
+    } catch (error) {
+      console.warn('⚠️ Failed to load ImgBB URLs, falling back to local images:', error);
+      
+      // Fallback to local images
+      const images = [];
       for (let i = 1; i <= 334; i++) {
         const paddedNumber = String(i).padStart(3, '0');
         images.push(`/data_img/ai-face-${paddedNumber}.jpg`);
       }
-    } else {
-      // Fallback to original naming system
-      console.log('🔄 Using original naming system (generated-face-X-timestamp)');
-      
-      const baseImages = [
-        '/data_img/download.jpg',
-        '/data_img/download (1).jpg',
-        '/data_img/download (2).jpg',
-        '/data_img/download (3).jpg',
-        '/data_img/download (4).jpg',
-        '/data_img/download (5).jpg',
-        '/data_img/download (6).jpg',
-        '/data_img/download (7).jpg',
-        '/data_img/download (8).jpg'
-      ];
-      
-      // Add all known generated-face patterns
-      const timestamps = [
-        '1761098014200', '1761099264329', '1761098018694', '1761099268312',
-        '1761098022770', '1761099271544', '1761098026826', '1761099275260',
-        '1761098030884', '1761099278688', '1761098034924', '1761099282113',
-        '1761098039001', '1761099285311', '1761098043032', '1761099288515',
-        '1761098047084', '1761099291148', '1761098051139', '1761099294331',
-        '1761098055197', '1761099297761', '1761098059238', '1761099301010',
-        '1761098063300', '1761099304494', '1761098067335', '1761099308204',
-        '1761098071387', '1761099311399', '1761098075435', '1761099314828',
-        '1761098079170', '1761099318022', '1761098083239', '1761099321459',
-        '1761098086979', '1761099324875', '1761098090716', '1761099328072',
-        '1761098094788', '1761099331535', '1761098098824', '1761099334729',
-        '1761098102975', '1761099338149', '1761098107088', '1761099341339',
-        '1761098111188', '1761099344757', '1761098115231', '1761099348181',
-        '1761098119281', '1761099351372', '1761098122800', '1761099354573',
-        '1761098126527', '1761099357992', '1761098130247', '1761099361183',
-        '1761098133963', '1761099364708', '1761098137685', '1761099368411',
-        '1761098141384', '1761099371848', '1761098145108', '1761099375281',
-        '1761098148816', '1761099379045', '1761098152538', '1761099382755',
-        '1761098156239', '1761099386193', '1761098159955', '1761099389621',
-        '1761098163653', '1761099393087', '1761098167379', '1761099396283',
-        '1761098171100', '1761099399748', '1761098174816', '1761099403475',
-        '1761098178285', '1761099406978', '1761098181738', '1761099410452',
-        '1761098185440', '1761099413921', '1761098189175', '1761099417337',
-        '1761098193095', '1761099420522', '1761098196854', '1761099423978',
-        '1761098200570', '1761099427436', '1761098204040', '1761099430872',
-        '1761099434304', '1761099437522', '1761099441239', '1761099444670',
-        '1761099448106', '1761099451316', '1761099455007', '1761099458213',
-        '1761099461398', '1761099464835', '1761099468022', '1761099471461',
-        '1761099474662', '1761099478097', '1761099481519', '1761099484950',
-        '1761099488389', '1761099491586', '1761099495017', '1761099498457',
-        '1761099501681', '1761099505170', '1761099508871', '1761099512341',
-        '1761099515818', '1761099519286', '1761099522723', '1761099526188',
-        '1761099529410', '1761099533116', '1761099536822', '1761099540491',
-        '1761099544224', '1761099547920', '1761099551635', '1761099555334',
-        '1761099559048', '1761099562735', '1761099566438', '1761099570133',
-        '1761099573864', '1761099577200', '1761099580534', '1761099583900',
-        '1761099587244', '1761099590600', '1761099593934', '1761099597084',
-        '1761099600445', '1761099603816', '1761099607147', '1761099610844',
-        '1761099614223', '1761099617597', '1761099620944', '1761099624287',
-        '1761099627636', '1761099630981', '1761099634317', '1761099637656',
-        '1761099640995', '1761099644358', '1761099648396', '1761099651832',
-        '1761099655055', '1761099658425', '1761099661770', '1761099665131',
-        '1761099668318', '1761099671694', '1761099674865', '1761099678231',
-        '1761099681569', '1761099684896', '1761099688271', '1761099691431',
-        '1761099694755', '1761099698130', '1761099701453', '1761099704623',
-        '1761099707771', '1761099710520', '1761099713850', '1761099717350',
-        '1761099720727', '1761099724169', '1761099727546', '1761099731022',
-        '1761099734407', '1761099737827', '1761099741047', '1761099744394',
-        '1761099747808', '1761099751146', '1761099754548', '1761099757884',
-        '1761099761302', '1761099764629', '1761099768019', '1761099771353',
-        '1761099774771', '1761099778129', '1761099781543', '1761099784877',
-        '1761099788306', '1761099791671', '1761099795099', '1761099798457',
-        '1761099801871', '1761099805196', '1761099808598', '1761099814085',
-        '1761099817450', '1761099820879', '1761099824207', '1761099827613',
-        '1761099830936', '1761099834327', '1761099837645', '1761099841036',
-        '1761099844375', '1761099847786', '1761099851146', '1761099854554',
-        '1761099857895', '1761099861287', '1761099864622', '1761099868021',
-        '1761099871353', '1761099874768', '1761099877911', '1761099881335',
-        '1761099884693', '1761099888084', '1761099891411', '1761099894742',
-        '1761099898146', '1761099901504', '1761099904902', '1761099908227',
-        '1761099911629', '1761099914962', '1761099918377', '1761099921698',
-        '1761099925115', '1761099928442', '1761099931863', '1761099935202',
-        '1761099938596', '1761099941985'
-      ];
-
-      // Generate all possible combinations
-      for (let i = 1; i <= 200; i++) {
-        timestamps.forEach(timestamp => {
-          images.push(`/data_img/generated-face-${i}-${timestamp}.jpg`);
-        });
-      }
-
-      // Add special timestamped images
-      images.push('/data_img/generated-face-2025-10-22T01-51-41-096Z.jpg');
-      
-      return [...baseImages, ...images];
+      return images;
     }
+  }, []);
 
-    return images;
+  // Load university logos from ImgBB
+  const loadUniversityLogos = useCallback(async () => {
+    try {
+      const response = await fetch('/data/image-urls.json');
+      if (!response.ok) {
+        throw new Error('Failed to load image URLs');
+      }
+      
+      const imageData = await response.json();
+      
+      // Extract university logos
+      const logos: {[key: string]: string} = {};
+      imageData
+        .filter((item: any) => !item.fileName.startsWith('ai-face-'))
+        .forEach((item: any) => {
+          const fileName = item.fileName;
+          // Map file names to university names
+          if (fileName.includes('IIT Delhi')) logos['IIT Delhi (Indian Institute of Technology Delhi)'] = item.url;
+          else if (fileName.includes('IIT Kanpur')) logos['IIT Kanpur (Indian Institute of Technology Kanpur)'] = item.url;
+          else if (fileName.includes('IIT Kharagpur')) logos['IIT Kharagpur (Indian Institute of Technology Kharagpur)'] = item.url;
+          else if (fileName.includes('IIT Madras')) logos['IIT Madras (Indian Institute of Technology Madras)'] = item.url;
+          else if (fileName.includes('Ewha Womans University')) logos['Ewha Womans University'] = item.url;
+          else if (fileName.includes('Hanyang University')) logos['Hanyang University'] = item.url;
+          else if (fileName.includes('KAIST')) logos['KAIST (Korea Advanced Institute of Science and Technology)'] = item.url;
+          else if (fileName.includes('Korea University')) logos['Korea University'] = item.url;
+          else if (fileName.includes('Seoul National University')) logos['Seoul National University'] = item.url;
+          else if (fileName.includes('Sogang University')) logos['Sogang University'] = item.url;
+          else if (fileName.includes('Sungkyunkwan University')) logos['Sungkyunkwan University (SKKU)'] = item.url;
+          else if (fileName.includes('UNIST')) logos['UNIST (Ulsan National Institute of Science and Technology)'] = item.url;
+          else if (fileName.includes('Hokkaido University')) logos['Hokkaido University'] = item.url;
+          else if (fileName.includes('Keio University')) logos['Keio University'] = item.url;
+          else if (fileName.includes('Nagoya University')) logos['Nagoya University'] = item.url;
+          else if (fileName.includes('Osaka University')) logos['Osaka University'] = item.url;
+          else if (fileName.includes('The University of Tokyo')) logos['The University of Tokyo'] = item.url;
+          else if (fileName.includes('Tohoku University')) logos['Tohoku University'] = item.url;
+          else if (fileName.includes('Waseda University')) logos['Waseda University'] = item.url;
+        });
+      
+      setUniversityLogos(logos);
+      console.log('🏫 University logos loaded:', Object.keys(logos).length, 'logos');
+      
+    } catch (error) {
+      console.warn('⚠️ Failed to load university logos from ImgBB:', error);
+    }
   }, []);
 
   // Smart image detection system
   const detectNewImages = useCallback(async () => {
     try {
-      // This would be expanded to actually scan the directory in a real implementation
-      // For now, we use the comprehensive list we've built
-      const images = getAllAvailableImages();
+      // Load images from ImgBB URLs
+      const images = await getAllAvailableImages();
       setAvailableImages(images);
-      console.log(`🎭 AI Image System: Loaded ${images.length} AI-generated face images!`);
+      console.log(`🎭 AI Image System: Loaded ${images.length} AI-generated face images from ImgBB!`);
       console.log(`📊 Image Variety: ${images.length} unique faces for maximum diversity`);
     } catch (error) {
       console.warn('Failed to detect new images:', error);
     }
   }, [getAllAvailableImages]);
 
-  // Initialize available images on component mount
+  // Initialize available images and university logos on component mount
   useEffect(() => {
     detectNewImages();
-  }, [detectNewImages]);
+    loadUniversityLogos();
+  }, [detectNewImages, loadUniversityLogos]);
 
   // Add image statistics display
   const getImageStats = useCallback(() => {
@@ -428,7 +394,7 @@ const App: React.FC = () => {
     
     try {
       // Use cached available images for better performance
-      const localImages = availableImages.length > 0 ? availableImages : getAllAvailableImages();
+      const localImages = availableImages.length > 0 ? availableImages : await getAllAvailableImages();
       
       // Ensure we have images available
       if (localImages.length === 0) {

@@ -5,64 +5,43 @@
       "universities": [
         {
           "name": "Seoul National University",
-          "logo": "/data/HanQuoc/Seoul National University.png"
+          "logo": "https://i.ibb.co/LDC6Vq73/Seoul-National-University.png"
         },
         {
           "name": "KAIST (Korea Advanced Institute of Science and Technology)",
-          "logo": "/data/HanQuoc/KAIST (Korea Advanced Institute of Science and Technology).png"
+          "logo": "https://i.ibb.co/Q3vCL3vR/KAIST-Korea-Advanced-Institute-of-Science-and-Technology.png"
         },
         {
           "name": "Yonsei University",
-          "logo": "/data/HanQuoc/Yonsei University.svg"
+          "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNlNWU1ZWUiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgZmlsbD0iI2QzMmYyZiIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSJ3aGl0ZSIvPgogIDx0ZXh0IHg9IjUwIiB5PSI2MCIgZm9udC1mYW1pbHk9InNlcmlmIiBmb250LXNpemU9IjQwIiBmaWxsPSIjZDMwMDI2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7msLQ8L3RleHQ+Cjwvc3ZnPgo="
         },
         {
           "name": "Korea University",
-          "logo": "/data/HanQuoc/Korea University.png"
+          "logo": "https://i.ibb.co/B5sJQthc/Korea-University.png"
         },
         {
           "name": "Sungkyunkwan University (SKKU)",
-          "logo": "/data/HanQuoc/Sungkyunkwan University (SKKU).jpg"
+          "logo": "https://i.ibb.co/KzsBNZJz/Sungkyunkwan-University-SKKU.png"
         },
         {
           "name": "POSTECH (Pohang University of Science and Technology)",
-          "logo": "/data/HanQuoc/POSTECH (Pohang University of Science and Technology).svg"
+          "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNlNWU1ZWUiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgZmlsbD0iI2QzMmYyZiIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSJ3aGl0ZSIvPgogIDx0ZXh0IHg9IjUwIiB5PSI2MCIgZm9udC1mYW1pbHk9InNlcmlmIiBmb250LXNpemU9IjQwIiBmaWxsPSIjZDMwMDI2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7msLQ8L3RleHQ+Cjwvc3ZnPgo="
         },
         {
           "name": "Hanyang University",
-          "logo": "/data/HanQuoc/Hanyang University.png"
+          "logo": "https://i.ibb.co/mVs37bRC/Hanyang-University.png"
         },
         {
           "name": "Ewha Womans University",
-          "logo": "/data/HanQuoc/Ewha Womans University.png"
+          "logo": "https://i.ibb.co/whCSszQ0/Ewha-Womans-University.png"
         },
         {
           "name": "Sogang University",
-          "logo": "/data/HanQuoc/Sogang University.png"
+          "logo": "https://i.ibb.co/jkLQw2n1/Sogang-University.png"
         },
         {
           "name": "UNIST (Ulsan National Institute of Science and Technology)",
-          "logo": "/data/HanQuoc/UNIST (Ulsan National Institute of Science and Technology).jpg"
-        }
-      ]
-    },
-    {
-      "name": "India",
-      "universities": [
-        {
-          "name": "IIT Delhi (Indian Institute of Technology Delhi)",
-          "logo": "/data/AnDo/IIT Delhi (Indian Institute of Technology Delhi).png"
-        },
-        {
-          "name": "IIT Kanpur (Indian Institute of Technology Kanpur)",
-          "logo": "/data/AnDo/IIT Kanpur (Indian Institute of Technology Kanpur).webp"
-        },
-        {
-          "name": "IIT Kharagpur (Indian Institute of Technology Kharagpur)",
-          "logo": "/data/AnDo/IIT Kharagpur (Indian Institute of Technology Kharagpur).png"
-        },
-        {
-          "name": "IIT Madras (Indian Institute of Technology Madras)",
-          "logo": "/data/AnDo/IIT Madras (Indian Institute of Technology Madras).png"
+          "logo": "https://i.ibb.co/fGd8MGkn/UNIST-Ulsan-National-Institute-of-Science-and-Technology.jpg"
         }
       ]
     },
@@ -71,43 +50,39 @@
       "universities": [
         {
           "name": "The University of Tokyo",
-          "logo": "/data/NhatBan/The University of Tokyo.png"
+          "logo": "https://i.ibb.co/ZpTptj4x/The-University-of-Tokyo.png"
         },
         {
           "name": "Kyoto University",
-          "logo": "/data/NhatBan/Kyoto University.svg"
+          "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNlNWU1ZWUiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgZmlsbD0iI2QzMmYyZiIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSJ3aGl0ZSIvPgogIDx0ZXh0IHg9IjUwIiB5PSI2MCIgZm9udC1mYW1pbHk9InNlcmlmIiBmb250LXNpemU9IjQwIiBmaWxsPSIjZDMwMDI2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7msLQ8L3RleHQ+Cjwvc3ZnPgo="
         },
         {
           "name": "Osaka University",
-          "logo": "/data/NhatBan/Osaka University.png"
+          "logo": "https://i.ibb.co/R49MXd5J/Osaka-University.png"
         },
         {
           "name": "Tohoku University",
-          "logo": "/data/NhatBan/Tohoku University.png"
+          "logo": "https://i.ibb.co/cVhcQFd/Tohoku-University.png"
         },
         {
           "name": "Tokyo Institute of Technology (now Institute of Science Tokyo)",
-          "logo": "/data/NhatBan/Tokyo Institute of Technology (now Institute of Science Tokyo).svg"
+          "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNlNWU1ZWUiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgZmlsbD0iI2QzMmYyZiIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSJ3aGl0ZSIvPgogIDx0ZXh0IHg9IjUwIiB5PSI2MCIgZm9udC1mYW1pbHk9InNlcmlmIiBmb250LXNpemU9IjQwIiBmaWxsPSIjZDMwMDI2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7msLQ8L3RleHQ+Cjwvc3ZnPgo="
         },
         {
           "name": "Nagoya University",
-          "logo": "/data/NhatBan/Nagoya University.png"
+          "logo": "https://i.ibb.co/vvCZg493/Nagoya-University.png"
         },
         {
           "name": "Hokkaido University",
-          "logo": "/data/NhatBan/Hokkaido University.png"
-        },
-        {
-          "name": "Kyushu University",
-          "logo": "/data/NhatBan/Kyushu University.svg"
-        },
-        {
-          "name": "Waseda University",
-          "logo": "/data/NhatBan/Waseda University.png"
+          "logo": "https://i.ibb.co/q39zgYJN/Hokkaido-University.png"
         },
         {
           "name": "Keio University",
-          "logo": "/data/NhatBan/Keio University.png"
+          "logo": "https://i.ibb.co/yBGwHbLY/Keio-University.png"
+        },
+        {
+          "name": "Waseda University",
+          "logo": "https://i.ibb.co/s71hPSn/Waseda-University.png"
         }
       ]
     },
@@ -115,8 +90,49 @@
       "name": "United States",
       "universities": [
         {
+          "name": "Harvard University",
+          "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNBMzE5MzAiLz4KICA8dGV4dCB4PSI1MCIgeT0iNjUiIGZvbnQtZmFtaWx5PSJzZXJpZiIgZm9udC1zaXplPSI1MCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5IPC90ZXh0Pgo8L3N2Zz4K"
+        },
+        {
+          "name": "Stanford University",
+          "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNBMzE5MzAiLz4KICA8dGV4dCB4PSI1MCIgeT0iNjUiIGZvbnQtZmFtaWx5PSJzZXJpZiIgZm9udC1zaXplPSI1MCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5IPC90ZXh0Pgo8L3N2Zz4K"
+        },
+        {
+          "name": "MIT (Massachusetts Institute of Technology)",
+          "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNBMzE5MzAiLz4KICA8dGV4dCB4PSI1MCIgeT0iNjUiIGZvbnQtZmFtaWx5PSJzZXJpZiIgZm9udC1zaXplPSI1MCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5IPC90ZXh0Pgo8L3N2Zz4K"
+        },
+        {
           "name": "Yale University",
-          "logo": "/data/My/My_YaleUniversity.svg"
+          "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNBMzE5MzAiLz4KICA8dGV4dCB4PSI1MCIgeT0iNjUiIGZvbnQtZmFtaWx5PSJzZXJpZiIgZm9udC1zaXplPSI1MCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5IPC90ZXh0Pgo8L3N2Zz4K"
+        },
+        {
+          "name": "Princeton University",
+          "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNBMzE5MzAiLz4KICA8dGV4dCB4PSI1MCIgeT0iNjUiIGZvbnQtZmFtaWx5PSJzZXJpZiIgZm9udC1zaXplPSI1MCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSJib2xkIj5IPC90ZXh0Pgo8L3N2Zz4K"
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "universities": [
+        {
+          "name": "IIT Delhi (Indian Institute of Technology Delhi)",
+          "logo": "https://i.ibb.co/bjHVyVVy/IIT-Delhi-Indian-Institute-of-Technology-Delhi.png"
+        },
+        {
+          "name": "IIT Kanpur (Indian Institute of Technology Kanpur)",
+          "logo": "https://i.ibb.co/HfZMnrM2/IIT-Kanpur-Indian-Institute-of-Technology-Kanpur.webp"
+        },
+        {
+          "name": "IIT Kharagpur (Indian Institute of Technology Kharagpur)",
+          "logo": "https://i.ibb.co/fzNy33h8/IIT-Kharagpur-Indian-Institute-of-Technology-Kharagpur.png"
+        },
+        {
+          "name": "IIT Madras (Indian Institute of Technology Madras)",
+          "logo": "https://i.ibb.co/jZ90cWSW/IIT-Madras-Indian-Institute-of-Technology-Madras.png"
+        },
+        {
+          "name": "IIT Bombay (Indian Institute of Technology Bombay)",
+          "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNlNWU1ZWUiLz4KICA8cGF0aCBkPSJNNTAgMTBMOTAgOTBMMTAgOTBaIiBmaWxsPSIjRkY5OTEzIi8+CiAgPHBhdGggZD0iTTUwIDIwTDgwIDgwTDIwIDgwWiIgZmlsbD0id2hpdGUiIHN0cm9rZT0iIzEzODgzMSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPHRleHQgeD0iNTAiIHk9IjczIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzEzODgzMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9ImJvbGQiPklJVDwvdGV4dD4KPC9zdmc+Cg=="
         }
       ]
     }
